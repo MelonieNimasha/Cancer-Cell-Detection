@@ -1,2 +1,3 @@
 # Cancer-Cell-Detection
-Deep learning models with custom data loaders which can take images with cell nuclei in the center of the image and classify them into 4 cell nuclei categories
+This notebook consist of 2 pytoch models to classify cell images to 4 categories to identify cancer cells.
+Model 1  is a custom Convolutional Neural Network model trained from scratch. Model 2 is a finetuned model using Resnet 101 pretrained model. Model interpretations to understand how different parts of the image contributes to the prediction are analysed in this notebook using Captum.
